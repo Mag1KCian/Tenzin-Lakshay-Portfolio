@@ -1,0 +1,96 @@
+#head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    height: 60px;
+    background-color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    flex-wrap: wrap;
+}
+#home{
+    margin : 0;
+    text-decoration: none;
+    color: black;
+}
+#about
+{
+margin : 0;
+text-decoration: none;
+color: black;
+}
+#contact
+{
+    text-decoration: none;
+   margin : 0;
+    color: #0065ff;
+    font-weight: 700px;
+}
+#body{
+    margin-top: 0px;
+    background-color:#FAFAFA;
+    font-size: 30px;
+    font-weight: bolder;
+}
+#mainbody{
+    padding: 60px 8%;
+    font-family: 'Poppins';
+}
+#name{
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: 24px;
+}
+#heading{
+    font-size: 24px;
+    font-weight: 600x;
+}
+#subheading{
+    font-size: 18px;
+    font-weight: 600;
+}
+#contactme{
+    margin-left: 50px; 
+    font-family: 'Poppins';
+    line-height: 1.6;
+    font-weight: 400;
+    font-size: 14px;
+}
+#image{
+    display: flex;
+    height: 200px;
+}
+#linkedin{
+    text-decoration: none;
+    color:  black;
+}
+#instagram{
+    text-decoration: none;
+    color:  black;
+}
+#twitter{
+    text-decoration: none;
+    color:  black;
+}
+@media (max-width: 768px){
+
+    #mainbody{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #image{
+        margin: 30px 0 0 0;
+    }
+
+    #start{
+        font-size: 40px;
+    }
+    #head {
+        gap: 20px;         
+    }
+    
+    #home, #about, #contact {
+        font-size: 16px;    
+    }
+}
