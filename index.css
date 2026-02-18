@@ -61,12 +61,11 @@ color: black;
 }
 #mainbody{
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     align-items: center;
     padding: 60px 8%;
     gap: 40px;
     flex-wrap: wrap;
-    align-content: center;
 }
 #start{
     font-size: 60px;
@@ -76,16 +75,16 @@ color: black;
 }
 #image{
    display: flex;
-   width: 400px;
+   width: 380px;
    max-width: 100%;
-   height: 400px;
+   height: 380px;
+   max-height: 100%;
    border-radius: 50%;
    margin-left: auto;
-   ;
 }
 #intro{
-    font-weight: 400px;
-    font-size: 14px;
+    font-weight: 400;
+    font-size: 14;
     text-decoration-color: #7cc843;
     line-height: 1.6;
     text-align: left;
@@ -98,9 +97,19 @@ color: black;
     }
 
     #image{
-        margin: 30px 0 0 0;
+        
+        margin: 20px auto ;
+        max-width: 250px;
+        max-height: 250px;
+        border-radius: 50%;
+        aspect-ratio: 1/1;
     }
-
+    #image{
+        width: 100%;
+        height: 100%;
+        object-fit:cover;
+        
+    }
     #head {
         gap: 20px;         
     }

@@ -47,18 +47,18 @@ color: black;
 }
 #heading{
     font-size: 24px;
-    font-weight: 600x;
+    font-weight: 600;
 }
 #subheading{
-    font-size: 18px;
+    font-size: 24px;
     font-weight: 600;
 }
 #contactme{
     margin-left: 50px; 
     font-family: 'Poppins';
     line-height: 1.6;
-    font-weight: 400;
-    font-size: 14px;
+    font-weight: 600;
+    font-size: 24px;
 }
 #image{
     display: flex;
