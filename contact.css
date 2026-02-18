@@ -7,6 +7,8 @@
     background-color: #FFFFFF;
     font-family: 'Poppins', sans-serif;
     flex-wrap: wrap;
+    font-size: 16px;
+    font-weight: 500;
 }
 #head a:hover {
     color: #0065ff;
@@ -19,22 +21,21 @@
 }
 #about
 {
-margin : 0;
-text-decoration: none;
-color: black;
+ margin : 0;
+ text-decoration: none;
+ color: black;
 }
 #contact
 {
     text-decoration: none;
-   margin : 0;
+    margin : 0;
     color: #0065ff;
-    font-weight: 700px;
+    font-weight: 700;
+    
 }
 #body{
     margin-top: 0px;
-    background-color:#FAFAFA;
-    font-size: 30px;
-    font-weight: bolder;
+    background-color:#f9f9f9;
 }
 #mainbody{
     padding: 60px 8%;
@@ -43,22 +44,16 @@ color: black;
 #name{
     text-align: center;
     font-family: 'Poppins';
-    font-size: 24px;
-}
-#heading{
-    font-size: 24px;
-    font-weight: 600;
-}
-#subheading{
-    font-size: 24px;
-    font-weight: 600;
+    font-size: 30px;
+    font-weight: 600; 
+    
 }
 #contactme{
     margin-left: 50px; 
     font-family: 'Poppins';
     line-height: 1.6;
-    font-weight: 600;
-    font-size: 24px;
+    font-weight: 400;
+    font-size: 14px;
 }
 #image{
     display: flex;

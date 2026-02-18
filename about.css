@@ -7,13 +7,14 @@
     background-color: #FFFFFF;
     font-family: 'Poppins', sans-serif;
     flex-wrap: wrap;
+    font-weight: 500;
 }
 #head a:hover {
     color: #0065ff;
     transition: color 0.3s ease;
 }
 #home{
-   margin : 0px;
+    margin : 0px;
     text-decoration: none;
     color: black;
 }
@@ -32,14 +33,12 @@
 }
 #body{
     margin-top: 0px;
-    background-color:#FAFAFA;
-    font-size: 30px;
-    font-weight: bolder;
+    background-color:#FAFAFA
 }
 #name{
     text-align: center;
     font-family: 'Poppins';
-    font-size: 24px;
+    font-size: 30px;
     font-weight: 600;
 }
 #image{
@@ -76,8 +75,8 @@
 #myself{
     margin-left: 0px;
     line-height: 1.6;
-    font-weight: 500;
-    font-size: 24px;
+    font-weight: 400;
+    font-size: 14px;
 }
 @media (max-width: 768px)
 {
