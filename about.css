@@ -8,6 +8,10 @@
     font-family: 'Poppins', sans-serif;
     flex-wrap: wrap;
 }
+#head a:hover {
+    color: #0065ff;
+    transition: color 0.3s ease;
+}
 #home{
    margin : 0;
     text-decoration: none;

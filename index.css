@@ -6,7 +6,7 @@ body {
     font-size: 30px;  
     text-decoration: color(#2D3436); 
 } 
-#head{
+#head {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,7 +16,10 @@ body {
     font-family: 'Poppins', sans-serif;
     padding: 0 20px;
     flex-wrap: wrap;
-    
+}
+#head a:hover {
+    color: #0065ff;
+    transition: color 0.3s ease;
 }
 #name{
     text-align: center;
